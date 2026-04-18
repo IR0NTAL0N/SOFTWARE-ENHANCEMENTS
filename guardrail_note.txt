@@ -1,1 +1,0 @@
-v8f adds a Plex DB guardrail. Configure a Plex DB path per server in Config. Before move/copy/restore/import actions, the app strongly recommends a DB backup. If configured and accepted, it copies that DB path into BackupRoot\PlexDatabaseBackups. If declined, a second popup warns the user they are proceeding at their own risk.
