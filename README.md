@@ -13,7 +13,7 @@ Powr Playlist never changes your actual media files. It does not move, rename, o
 This project is licensed under the GNU GPLv3.
 
 
-## HERE ARE T20 OF THE BEST FEATURES OF POWR PLAYLIST:
+## HERE ARE THE TOP 20 BEST FEATURES OF POWR PLAYLIST:
 
 Add Copy Buffer... Sends everything collected in the copy buffer to a destination playlist. It can append to an existing playlist or create a new one.
 
