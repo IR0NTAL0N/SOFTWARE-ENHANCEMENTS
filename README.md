@@ -1,53 +1,41 @@
-# SOFTWARE-ENHANCEMENTS
-# Software Enhancement and Efficiency Tools
+Here are 20 of the best features in clean bullet form:
 
-This repository is dedicated to enhancing existing applications to improve functionality, reliability, and efficiency.
+Add Copy Buffer... Sends everything collected in the copy buffer to a destination playlist. It can append to an existing playlist or create a new one.
 
-Our work focuses on practical software improvements that solve real operational problems, reduce friction in daily use, and extend the usefulness of standard applications beyond their default limitations.
+Add Selected To Playlist... Sends the currently selected titles directly to a playlist. This is the fastest way to add a quick batch without using the copy buffer.
 
-## Mission
+Backup Creates a safety backup before major playlist editing. It helps you recover if you make a bad change.
 
-To improve existing software through thoughtful enhancements, workflow optimization, and purpose-built supporting tools.
+Backup Plex DB Now Creates a backup of the configured Plex database folder. This is useful before advanced maintenance or testing.
 
-## What We Build
+Change Backup Location... Lets power users choose a local, mapped, or network backup destination. It can create the folder if it does not already exist.
 
-- application enhancements
-- workflow optimization tools
-- automation utilities
-- usability improvements
-- performance-focused solutions
-- control and management interfaces
-- safeguards, logging, and recovery features
+Copy Playlist To Server Copies a playlist from one Plex server to another. It resolves titles on the destination and recreates the playlist there.
 
-## Core Principles
+Copy Selected Adds selected titles to the copy buffer for later use. This is ideal for gathering titles from multiple playlists before deciding where they should go.
 
-- Practical over flashy
-- Reliable over clever
-- Efficient over cumbersome
-- User-focused over system-focused
+Cross-Server Playlist Copy Supports moving playlist structure between different Plex servers without touching actual media files. It is designed for server-to-server playlist recreation, not file transfer.
 
-## Why This Work Matters
+CSV Export Exports playlist order and contents to a CSV file. This makes it easy to review or edit large playlists outside the app.
 
-Many applications are powerful but incomplete.  
-They often lack the quality-of-life features, workflow controls, and efficiency improvements that real users need.
+CSV Import / Apply Imported CSV Imports a CSV and applies its order to the current playlist. This is especially useful for large manual ordering jobs.
 
-Our goal is to close those gaps by building tools that make software easier to use, more effective, and better aligned with real-world demands.
+Cut Selected Places selected titles into the move buffer for repositioning inside the current playlist. It is meant for editing sequence, not collecting titles across playlists.
 
-## Development Focus
+Move Buffer Reordering Lets you reposition titles using Cut Selected, Paste Before, and Paste After. It is best for controlled reordering inside one playlist.
 
-Projects in this repository are designed to:
+Move To Slot Sends a selected title directly to a specific position in the playlist. This is one of the quickest ways to fix ordering.
 
-- improve efficiency
-- extend software capability
-- reduce manual effort
-- simplify repetitive tasks
-- add meaningful controls and safeguards
-- solve problems left unaddressed by default software design
+Move Up One / Move Down One Nudges a title one position at a time. These are perfect for fine-tuning order without doing a full move operation.
 
-## Status
+New Playlist From Selected Creates a brand-new playlist from the titles currently selected. It is the fastest way to turn a subset into its own playlist.
 
-This repository may include both stable tools and active development projects as functionality continues to evolve.
+Paste Before / Paste After Places the move buffer before or after the selected anchor title. This makes block movement simple and visual.
 
-## Authors
+Persistent Copy Buffer Workflow Lets you collect titles from multiple playlists before deciding what to do with them. That makes playlist building much more intuitive.
 
-Marvin and HAL
+Playlist Verification / Cure Pass After cross-server creation, the app can verify whether the destination playlist matches the intended source. This helps catch omissions instead of pretending everything worked.
+
+Read-Only Backup Location Display Shows users exactly where backups are stored without forcing them to type a path. Power users can still change it when needed.
+
+Safe Media Handling Powr Playlist never changes your actual media files. It works with playlists, Plex metadata, and backup-related operations only.
