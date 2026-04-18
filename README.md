@@ -1,3 +1,18 @@
+# Powr Playlist
+
+Powr Playlist is a Windows desktop tool for managing large Plex playlists faster and more precisely than the standard Plex interface.
+
+It is designed for users who need better control over playlist order, block movement, CSV import/export, playlist creation from selections, and cross-server playlist copying.
+
+## Safety
+
+Powr Playlist never changes your actual media files. It does not move, rename, overwrite, or delete your movies or music. It works with playlists, Plex metadata, and backup-related operations only.
+
+## License
+
+This project is licensed under the GNU GPLv3.
+
+
 Here are 20 of the best features in clean bullet form:
 
 Add Copy Buffer... Sends everything collected in the copy buffer to a destination playlist. It can append to an existing playlist or create a new one.
